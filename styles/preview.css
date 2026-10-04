@@ -1,0 +1,11 @@
+/* preview.css — present ONLY in the public preview, never in the handoff build. */
+[data-preview-note]{border:2px solid var(--c-error,#a3261b);background:var(--c-ground,#fff);color:var(--c-text,#1b1a21);padding:1rem 1.15rem;border-radius:var(--radius,2px);margin:0 0 1.5rem;font:400 1rem/1.6 var(--font-text,system-ui,sans-serif);max-width:41rem}
+[data-preview-note] strong{display:block;margin-bottom:0.25rem;font-weight:700;color:var(--c-error,#a3261b)}
+[data-preview-note] a{color:inherit;font-weight:700;white-space:nowrap}
+/* the practice forms' submit control is disabled in the preview: it must look it, and must not react to the
+   pointer as a working button does (site.css changes .btn:hover) */
+form[data-preview="inert"] button[disabled]{opacity:.45;cursor:not-allowed}
+form[data-preview="inert"] button[disabled]:hover{background:var(--c-btn);border-color:var(--c-btn);color:var(--c-btn-text)}
+form[data-preview="inert"] button[disabled] .icon--arrow,form[data-preview="inert"] button[disabled]:hover .icon--arrow{transform:none}
+/* the line under the disabled button (the form's own status line, filled in the preview) */
+form[data-preview="inert"] [data-preview-formstatus]{margin:var(--sp-4,1rem) 0 0}

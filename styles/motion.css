@@ -1,0 +1,2 @@
+/* motion.css — keyframes reused from the source site, verbatim (see src/styles/motion.css). */
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}

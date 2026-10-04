@@ -1,0 +1,1276 @@
+{
+  "schema": "site-reforge-local/preview-provenance@1",
+  "note": "This tree is the private handoff build PLUS the hardening below. It is not that build.",
+  "previewUrl": "https://chris-sgen.github.io/yorkeyeassociates",
+  "realSite": "https://www.yorkeyeassociates.com",
+  "structureModel": "https://eyetrendsclearlake.com",
+  "design": "Large Print — a redesign of the practice's site on another site's navigation model",
+  "changes": {
+    "pages": 239,
+    "robotsMeta": 239,
+    "robotsWasIndexable": 150,
+    "referrerMeta": 239,
+    "ogUrlRepointed": 239,
+    "ogDescriptionReplaced": 227,
+    "ogDescriptionAdded": 12,
+    "twitterDescriptionReplaced": 227,
+    "twitterDescriptionAdded": 12,
+    "ogSiteNameReplaced": 239,
+    "descriptionsReplaced": 2,
+    "ogImageRemoved": 237,
+    "twitterImageRemoved": 237,
+    "jsonLdRemoved": 239,
+    "formsTotal": 258,
+    "searchFormsLeftWorking": 252,
+    "practiceFormsNeutralised": 6,
+    "submitGuardsAdded": 6,
+    "practiceSubmitButtonsDisabled": 5,
+    "practiceFormsWithoutButton": 1,
+    "practiceFormsButtonHidden": 1,
+    "jsEnableMarkersRemoved": 5,
+    "resultTargetsRemoved": 2,
+    "scoreFieldsDetached": 3,
+    "scoreRulesRemoved": 7,
+    "noScoreLinesRemoved": 2,
+    "formStatusLinesFilled": 6,
+    "formNoticesAdded": 6,
+    "liveTextNotesAdded": 2,
+    "offlineNoticesRemoved": 4,
+    "noscriptScoreNotesRemoved": 1,
+    "previewStylesLinked": 239,
+    "mapFramesReferrer": 2,
+    "videoFramesReferrer": 1,
+    "crlfPagesNormalised": 0,
+    "svgCleaned": [
+      "assets/img/2yc2c0viqxkn0qbc.svg"
+    ],
+    "unreferencedNotShipped": [
+      "assets/img/blond-middle-aged-woman-2-640.webp",
+      "assets/img/brand/mark.json",
+      "assets/img/bruce-mars-559223-unsplash-640x427-640.webp",
+      "assets/img/childhood-glaucoma-640x350-1-2-640.webp",
+      "assets/img/clock-5207235-1920-thumbnail-640.webp",
+      "assets/img/dry-eye-thumbnail-525.webp",
+      "assets/img/paisley-gsp-uid-9cc4029a-881b-4430-9bf9-a0de9e9d40f5-350x427-350.webp",
+      "assets/img/paisley-gsp-uid-9cc4029a-881b-4430-9bf9-a0de9e9d40f5-508.webp",
+      "assets/img/school-girl-glum2-640x427-4-640x427-640.webp",
+      "assets/img/senior-difficulty-reading-640x427-640.webp",
+      "assets/img/supplements-that-slow-amd-progression-640-2-640.webp",
+      "assets/img/the-link-between-high-myopia-and-serious-eye-diseases-2-640.webp",
+      "assets/img/the-risk-factors-in-children-adolescents-640.webp",
+      "assets/img/thumbnail-glasses-325.webp",
+      "assets/img/treatments-for-keratoconus-thumbnail-325.webp",
+      "assets/img/whats-the-connection-between-dry-eye-and-asthma-640x350-1-2-640.webp",
+      "assets/img/why-glasses-are-not-the-solution-for-progressive-myopia-640x350-1-640.webp"
+    ],
+    "filesNotShipped": [
+      "llms.txt",
+      "sitemap.xml",
+      "_headers",
+      "_redirects"
+    ]
+  },
+  "verification": {
+    "tool": "src/tools/preview-verify.mjs (handoff project)",
+    "servedAs": "local GitHub Pages emulation under /yorkeyeassociates/ (src/tools/preview-serve.mjs)",
+    "verdict": "PASS",
+    "pages": 239,
+    "hardening": {
+      "robotsNoindex": 239,
+      "referrer": 239,
+      "noJsonLd": 239,
+      "noBanner": 239,
+      "previewStyles": 239,
+      "canonicalReal": 239,
+      "ogUrlPreview": 239,
+      "ogDescDisclosure": 239,
+      "twDescDisclosure": 239,
+      "siteNameDisclosure": 239,
+      "plainDescriptionOk": 239,
+      "noOgImage": 239,
+      "lfOnly": 239,
+      "iframesChecked": 3,
+      "formsTotal": 258,
+      "searchForms": 252,
+      "formsInert": 6,
+      "patientForms": 6,
+      "patientFormsNeutral": 6,
+      "patientFormsGuarded": 6,
+      "patientFormsNoSubmitControl": 6,
+      "patientFormsWithoutButton": 1,
+      "patientFormsNoJsEnable": 6,
+      "patientFormsStatusLine": 6,
+      "resultForms": 3,
+      "resultFormsDetached": 3,
+      "noScriptSlots": 239,
+      "formNotices": 6,
+      "liveTextNotes": 2,
+      "platformNamedWithoutNote": 0,
+      "titlePrefixed": 0,
+      "oneH1": 239,
+      "socialTitles": 478
+    },
+    "identity": {
+      "identical": 1072,
+      "added": [
+        ".gitattributes",
+        ".gitignore",
+        ".nojekyll",
+        "PROVENANCE.json",
+        "PROVENANCE.md",
+        "README.md",
+        "robots.txt",
+        "styles/preview.css"
+      ],
+      "cleanedSvg": [
+        "assets/img/2yc2c0viqxkn0qbc.svg"
+      ],
+      "notShippedBecauseUnnamed": 17,
+      "shippedButUnnamed": 0
+    },
+    "secrets": {
+      "scanned": 253,
+      "hits": 0,
+      "note": "final tree, docs included; asserted by the post-write re-check"
+    },
+    "binaries": {
+      "scanned": 1067,
+      "byKind": {
+        "jpg": 3,
+        "webp": 1048,
+        "png": 3,
+        "mp4": 10,
+        "woff2": 3
+      },
+      "metadataProblems": 0,
+      "stringHits": 0,
+      "note": "container metadata checked against an allowlist (src/tools/preview-binscan.mjs); printable strings incl. decompressed streams scanned"
+    },
+    "references": {
+      "checked": 40064,
+      "byKind": {
+        "href": 35175,
+        "src": 1637,
+        "action": 252,
+        "srcset": 2978,
+        "data-loop": 16,
+        "css url()": 6
+      },
+      "escapesRoot": 0,
+      "missing": 0,
+      "rootRelative": 0,
+      "notFoundAbsolute": 146
+    },
+    "notCarried": {
+      "markersSearched": 10,
+      "hits": 0
+    },
+    "render": {
+      "widths": [
+        1440,
+        390
+      ],
+      "pageLoads": 476,
+      "responses400": 0,
+      "brokenImages": 0,
+      "consoleErrors": 0,
+      "outsidePrefix": 0,
+      "overflow390": 0,
+      "bannerShown": 0,
+      "browserCancelled": 1,
+      "deep404": [
+        {
+          "path": "no-such-page/",
+          "status": 404,
+          "subresourceFailures": [],
+          "broken": [],
+          "banner": false,
+          "cssRules": 684
+        },
+        {
+          "path": "a/b/c/d/no-such-page",
+          "status": 404,
+          "subresourceFailures": [],
+          "broken": [],
+          "banner": false,
+          "cssRules": 684
+        },
+        {
+          "path": "eye-care-services/nope/",
+          "status": 404,
+          "subresourceFailures": [],
+          "broken": [],
+          "banner": false,
+          "cssRules": 684
+        }
+      ],
+      "search": {
+        "results": 60,
+        "outside": [],
+        "sample": [
+          "/yorkeyeassociates/eye-care-services/dry-eye-optometrist/",
+          "/yorkeyeassociates/eye-care-services/dry-eye-optometrist/what-causes-dry-eye/",
+          "/yorkeyeassociates/eye-care-services/eye-conditions/dry-eye-disease-and-treatment/"
+        ],
+        "firstResultStatus": 200
+      },
+      "videoLoops": [
+        {
+          "route": "/",
+          "status": 200,
+          "loops": [
+            {
+              "name": "beads",
+              "src": "/yorkeyeassociates/assets/video/beads-480.mp4",
+              "ready": 4,
+              "advancing": true,
+              "paused": false,
+              "controls": false,
+              "error": null
+            },
+            {
+              "name": "frames",
+              "src": "/yorkeyeassociates/assets/video/frames-480.mp4",
+              "ready": 4,
+              "advancing": true,
+              "paused": false,
+              "controls": false,
+              "error": null
+            }
+          ]
+        },
+        {
+          "route": "advanced-services/",
+          "status": 200,
+          "loops": [
+            {
+              "name": "lens",
+              "src": "/yorkeyeassociates/assets/video/lens-720.mp4",
+              "ready": 4,
+              "advancing": true,
+              "paused": false,
+              "controls": false,
+              "error": null
+            }
+          ]
+        },
+        {
+          "route": "contact-lenses/",
+          "status": 200,
+          "loops": [
+            {
+              "name": "contact",
+              "src": "/yorkeyeassociates/assets/video/contact-720.mp4",
+              "ready": 4,
+              "advancing": true,
+              "paused": false,
+              "controls": false,
+              "error": null
+            }
+          ]
+        },
+        {
+          "route": "eye-care-services/dry-eye-optometrist/",
+          "status": 200,
+          "loops": [
+            {
+              "name": "dry",
+              "src": "/yorkeyeassociates/assets/video/dry-720.mp4",
+              "ready": 4,
+              "advancing": true,
+              "paused": false,
+              "controls": false,
+              "error": null
+            }
+          ]
+        }
+      ],
+      "practiceFormsJsOn": [
+        {
+          "route": "children-vision-assessment-score/",
+          "enterOn": {
+            "type": "text",
+            "name": "your-score",
+            "readOnly": true
+          },
+          "clickHitButton": null,
+          "submitEventsFromEnterAndClick": 0,
+          "statusAtStart": "This form is disabled in this preview: nothing is sent.",
+          "statusAfterEnterAndClick": "This form is disabled in this preview: nothing is sent.",
+          "synthetic": {
+            "prevented": true,
+            "counted": 1,
+            "status": "This form is disabled in this preview: nothing is sent.",
+            "url": "/yorkeyeassociates/children-vision-assessment-score/",
+            "notice": true,
+            "guardFirst": true,
+            "guardDisabled": true,
+            "disabledButtons": 1,
+            "stillDisabledAfterScripts": true
+          },
+          "control": {
+            "focused": true,
+            "submitEventsWithGuardEnabled": 1,
+            "statusAfter": "This form is disabled in this preview: nothing is sent.",
+            "url": "/yorkeyeassociates/children-vision-assessment-score/"
+          },
+          "hoverTest": null,
+          "requests": []
+        },
+        {
+          "route": "contact-us/patient-registration-form/",
+          "enterOn": {
+            "type": "text",
+            "name": "name-required-first",
+            "readOnly": false
+          },
+          "clickHitButton": true,
+          "submitEventsFromEnterAndClick": 0,
+          "statusAtStart": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+          "statusAfterEnterAndClick": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+          "synthetic": {
+            "prevented": true,
+            "counted": 1,
+            "status": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+            "url": "/yorkeyeassociates/contact-us/patient-registration-form/",
+            "notice": true,
+            "guardFirst": true,
+            "guardDisabled": true,
+            "disabledButtons": 1,
+            "stillDisabledAfterScripts": true
+          },
+          "control": {
+            "focused": true,
+            "submitEventsWithGuardEnabled": 1,
+            "statusAfter": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+            "url": "/yorkeyeassociates/contact-us/patient-registration-form/"
+          },
+          "hoverTest": {
+            "idle": {
+              "hover": false,
+              "bg": "rgb(27, 26, 33)",
+              "bd": "rgb(27, 26, 33)",
+              "arrow": "none"
+            },
+            "hovered": {
+              "hover": true,
+              "bg": "rgb(27, 26, 33)",
+              "bd": "rgb(27, 26, 33)",
+              "arrow": "none"
+            }
+          },
+          "requests": []
+        },
+        {
+          "route": "deq-5-questionnaire-results/",
+          "enterOn": {
+            "type": "number",
+            "name": "your-score",
+            "readOnly": true
+          },
+          "clickHitButton": null,
+          "submitEventsFromEnterAndClick": 0,
+          "statusAtStart": "This form is disabled in this preview: nothing is sent.",
+          "statusAfterEnterAndClick": "This form is disabled in this preview: nothing is sent.",
+          "synthetic": {
+            "prevented": true,
+            "counted": 1,
+            "status": "This form is disabled in this preview: nothing is sent.",
+            "url": "/yorkeyeassociates/deq-5-questionnaire-results/",
+            "notice": true,
+            "guardFirst": true,
+            "guardDisabled": true,
+            "disabledButtons": 0,
+            "stillDisabledAfterScripts": true
+          },
+          "control": {
+            "focused": true,
+            "submitEventsWithGuardEnabled": 1,
+            "statusAfter": "This form is disabled in this preview: nothing is sent.",
+            "url": "/yorkeyeassociates/deq-5-questionnaire-results/"
+          },
+          "hoverTest": null,
+          "requests": []
+        },
+        {
+          "route": "eye-care-services/dry-eye-optometrist/speed-questionnaire/",
+          "enterOn": {
+            "type": "radio",
+            "name": "a-during-a-typical-day-in-the-past-month-how-often-did-your-",
+            "readOnly": false
+          },
+          "clickHitButton": true,
+          "submitEventsFromEnterAndClick": 0,
+          "statusAtStart": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+          "statusAfterEnterAndClick": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+          "synthetic": {
+            "prevented": true,
+            "counted": 1,
+            "status": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+            "url": "/yorkeyeassociates/eye-care-services/dry-eye-optometrist/speed-questionnaire/",
+            "notice": true,
+            "guardFirst": true,
+            "guardDisabled": true,
+            "disabledButtons": 1,
+            "stillDisabledAfterScripts": true
+          },
+          "control": {
+            "focused": true,
+            "submitEventsWithGuardEnabled": 1,
+            "statusAfter": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+            "url": "/yorkeyeassociates/eye-care-services/dry-eye-optometrist/speed-questionnaire/"
+          },
+          "hoverTest": {
+            "idle": {
+              "hover": false,
+              "bg": "rgb(27, 26, 33)",
+              "bd": "rgb(27, 26, 33)",
+              "arrow": "none"
+            },
+            "hovered": {
+              "hover": true,
+              "bg": "rgb(27, 26, 33)",
+              "bd": "rgb(27, 26, 33)",
+              "arrow": "none"
+            }
+          },
+          "requests": []
+        },
+        {
+          "route": "eye-care-services/myopia-management-optometrist/myopia-management-quiz/",
+          "enterOn": {
+            "type": "text",
+            "name": "parent-s-or-guardian-s-name-first",
+            "readOnly": false
+          },
+          "clickHitButton": true,
+          "submitEventsFromEnterAndClick": 0,
+          "statusAtStart": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+          "statusAfterEnterAndClick": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+          "synthetic": {
+            "prevented": true,
+            "counted": 1,
+            "status": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+            "url": "/yorkeyeassociates/eye-care-services/myopia-management-optometrist/myopia-management-quiz/",
+            "notice": true,
+            "guardFirst": true,
+            "guardDisabled": true,
+            "disabledButtons": 1,
+            "stillDisabledAfterScripts": true
+          },
+          "control": {
+            "focused": true,
+            "submitEventsWithGuardEnabled": 1,
+            "statusAfter": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+            "url": "/yorkeyeassociates/eye-care-services/myopia-management-optometrist/myopia-management-quiz/"
+          },
+          "hoverTest": {
+            "idle": {
+              "hover": false,
+              "bg": "rgb(27, 26, 33)",
+              "bd": "rgb(27, 26, 33)",
+              "arrow": "none"
+            },
+            "hovered": {
+              "hover": true,
+              "bg": "rgb(27, 26, 33)",
+              "bd": "rgb(27, 26, 33)",
+              "arrow": "none"
+            }
+          },
+          "requests": []
+        },
+        {
+          "route": "myopia-management-quiz-results/",
+          "enterOn": {
+            "type": "number",
+            "name": "total-risk-score",
+            "readOnly": true
+          },
+          "clickHitButton": true,
+          "submitEventsFromEnterAndClick": 0,
+          "statusAtStart": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+          "statusAfterEnterAndClick": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+          "synthetic": {
+            "prevented": true,
+            "counted": 1,
+            "status": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+            "url": "/yorkeyeassociates/myopia-management-quiz-results/",
+            "notice": true,
+            "guardFirst": true,
+            "guardDisabled": true,
+            "disabledButtons": 1,
+            "stillDisabledAfterScripts": true
+          },
+          "control": {
+            "focused": true,
+            "submitEventsWithGuardEnabled": 1,
+            "statusAfter": "This form is disabled in this preview, so the button above does nothing and nothing is sent.",
+            "url": "/yorkeyeassociates/myopia-management-quiz-results/"
+          },
+          "hoverTest": {
+            "idle": {
+              "hover": false,
+              "bg": "rgb(27, 26, 33)",
+              "bd": "rgb(27, 26, 33)",
+              "arrow": "none"
+            },
+            "hovered": {
+              "hover": true,
+              "bg": "rgb(27, 26, 33)",
+              "bd": "rgb(27, 26, 33)",
+              "arrow": "none"
+            }
+          },
+          "requests": []
+        }
+      ],
+      "resultPagesScoreInAddress": [
+        {
+          "route": "children-vision-assessment-score/",
+          "scoreField": "",
+          "shownButtons": 0,
+          "tried": [
+            {
+              "score": "3",
+              "same": true
+            },
+            {
+              "score": "9",
+              "same": true
+            },
+            {
+              "score": "15",
+              "same": true
+            },
+            {
+              "score": "25",
+              "same": true
+            },
+            {
+              "score": "120",
+              "same": true
+            }
+          ]
+        },
+        {
+          "route": "deq-5-questionnaire-results/",
+          "scoreField": "",
+          "shownButtons": 0,
+          "tried": [
+            {
+              "score": "3",
+              "same": true
+            },
+            {
+              "score": "9",
+              "same": true
+            },
+            {
+              "score": "15",
+              "same": true
+            },
+            {
+              "score": "25",
+              "same": true
+            },
+            {
+              "score": "120",
+              "same": true
+            }
+          ]
+        },
+        {
+          "route": "myopia-management-quiz-results/",
+          "scoreField": "",
+          "shownButtons": 1,
+          "tried": [
+            {
+              "score": "3",
+              "same": true
+            },
+            {
+              "score": "9",
+              "same": true
+            },
+            {
+              "score": "15",
+              "same": true
+            },
+            {
+              "score": "25",
+              "same": true
+            },
+            {
+              "score": "120",
+              "same": true
+            }
+          ]
+        }
+      ],
+      "practiceFormsJsOff": [
+        {
+          "route": "children-vision-assessment-score/",
+          "fields": 2,
+          "shown": 1,
+          "buttonShown": false,
+          "negative": {
+            "enterAndClickRequests": 0,
+            "enter": {
+              "on": {
+                "type": "text",
+                "name": "your-score",
+                "readOnly": true
+              },
+              "requests": [],
+              "stayed": true
+            },
+            "click": {
+              "requests": [],
+              "stayed": true,
+              "clickHitButton": null
+            }
+          },
+          "layers": {
+            "guardAlone": {
+              "focused": true,
+              "requests": [],
+              "stayed": true
+            },
+            "methodAlone": {
+              "focused": true,
+              "requests": [],
+              "stayed": true
+            },
+            "secondFieldAlone": {
+              "alone": {
+                "focused": true,
+                "requests": [],
+                "stayed": true
+              },
+              "controlWithoutIt": {
+                "focused": true,
+                "requests": [
+                  "POST /yorkeyeassociates/children-vision-assessment-score/"
+                ],
+                "stayed": false
+              }
+            }
+          },
+          "control": {
+            "enter": [
+              "POST /yorkeyeassociates/children-vision-assessment-score/"
+            ],
+            "enterOn": {
+              "type": "text",
+              "name": "your-score",
+              "readOnly": true
+            },
+            "enterFocused": true,
+            "click": null,
+            "clickHitButton": null
+          }
+        },
+        {
+          "route": "contact-us/patient-registration-form/",
+          "fields": 14,
+          "shown": 13,
+          "buttonShown": true,
+          "negative": {
+            "enterAndClickRequests": 0,
+            "enter": {
+              "on": {
+                "type": "text",
+                "name": "name-required-first",
+                "readOnly": false
+              },
+              "requests": [],
+              "stayed": true
+            },
+            "click": {
+              "requests": [],
+              "stayed": true,
+              "clickHitButton": true
+            }
+          },
+          "layers": {
+            "guardAlone": {
+              "focused": true,
+              "requests": [],
+              "stayed": true
+            },
+            "methodAlone": {
+              "focused": true,
+              "requests": [],
+              "stayed": true
+            },
+            "secondFieldAlone": null
+          },
+          "control": {
+            "enter": [
+              "POST /yorkeyeassociates/contact-us/patient-registration-form/"
+            ],
+            "enterOn": {
+              "type": "text",
+              "name": "name-required-first",
+              "readOnly": false
+            },
+            "enterFocused": true,
+            "click": [
+              "POST /yorkeyeassociates/contact-us/patient-registration-form/"
+            ],
+            "clickHitButton": true
+          }
+        },
+        {
+          "route": "deq-5-questionnaire-results/",
+          "fields": 2,
+          "shown": 1,
+          "buttonShown": false,
+          "negative": {
+            "enterAndClickRequests": 0,
+            "enter": {
+              "on": {
+                "type": "number",
+                "name": "your-score",
+                "readOnly": true
+              },
+              "requests": [],
+              "stayed": true
+            },
+            "click": {
+              "requests": [],
+              "stayed": true,
+              "clickHitButton": null
+            }
+          },
+          "layers": {
+            "guardAlone": {
+              "focused": true,
+              "requests": [],
+              "stayed": true
+            },
+            "methodAlone": {
+              "focused": true,
+              "requests": [],
+              "stayed": true
+            },
+            "secondFieldAlone": {
+              "alone": {
+                "focused": true,
+                "requests": [],
+                "stayed": true
+              },
+              "controlWithoutIt": {
+                "focused": true,
+                "requests": [
+                  "POST /yorkeyeassociates/deq-5-questionnaire-results/"
+                ],
+                "stayed": false
+              }
+            }
+          },
+          "control": {
+            "enter": [
+              "POST /yorkeyeassociates/deq-5-questionnaire-results/"
+            ],
+            "enterOn": {
+              "type": "number",
+              "name": "your-score",
+              "readOnly": true
+            },
+            "enterFocused": true,
+            "click": null,
+            "clickHitButton": null
+          }
+        },
+        {
+          "route": "eye-care-services/dry-eye-optometrist/speed-questionnaire/",
+          "fields": 2,
+          "shown": 0,
+          "buttonShown": true,
+          "negative": {
+            "enterAndClickRequests": 0,
+            "enter": {
+              "on": {
+                "type": "radio",
+                "name": "a-during-a-typical-day-in-the-past-month-how-often-did-your-",
+                "readOnly": false
+              },
+              "requests": [],
+              "stayed": true
+            },
+            "click": {
+              "requests": [],
+              "stayed": true,
+              "clickHitButton": true
+            }
+          },
+          "layers": {
+            "guardAlone": {
+              "focused": true,
+              "requests": [],
+              "stayed": true
+            },
+            "methodAlone": {
+              "focused": true,
+              "requests": [],
+              "stayed": true
+            },
+            "secondFieldAlone": null
+          },
+          "control": {
+            "enter": [
+              "POST /yorkeyeassociates/eye-care-services/dry-eye-optometrist/speed-questionnaire/"
+            ],
+            "enterOn": {
+              "type": "radio",
+              "name": "a-during-a-typical-day-in-the-past-month-how-often-did-your-",
+              "readOnly": false
+            },
+            "enterFocused": true,
+            "click": [
+              "POST /yorkeyeassociates/eye-care-services/dry-eye-optometrist/speed-questionnaire/"
+            ],
+            "clickHitButton": true
+          }
+        },
+        {
+          "route": "eye-care-services/myopia-management-optometrist/myopia-management-quiz/",
+          "fields": 9,
+          "shown": 8,
+          "buttonShown": true,
+          "negative": {
+            "enterAndClickRequests": 0,
+            "enter": {
+              "on": {
+                "type": "text",
+                "name": "parent-s-or-guardian-s-name-first",
+                "readOnly": false
+              },
+              "requests": [],
+              "stayed": true
+            },
+            "click": {
+              "requests": [],
+              "stayed": true,
+              "clickHitButton": true
+            }
+          },
+          "layers": {
+            "guardAlone": {
+              "focused": true,
+              "requests": [],
+              "stayed": true
+            },
+            "methodAlone": {
+              "focused": true,
+              "requests": [],
+              "stayed": true
+            },
+            "secondFieldAlone": null
+          },
+          "control": {
+            "enter": [
+              "POST /yorkeyeassociates/eye-care-services/myopia-management-optometrist/myopia-management-quiz/"
+            ],
+            "enterOn": {
+              "type": "text",
+              "name": "parent-s-or-guardian-s-name-first",
+              "readOnly": false
+            },
+            "enterFocused": true,
+            "click": [
+              "POST /yorkeyeassociates/eye-care-services/myopia-management-optometrist/myopia-management-quiz/"
+            ],
+            "clickHitButton": true
+          }
+        },
+        {
+          "route": "myopia-management-quiz-results/",
+          "fields": 2,
+          "shown": 1,
+          "buttonShown": true,
+          "negative": {
+            "enterAndClickRequests": 0,
+            "enter": {
+              "on": {
+                "type": "number",
+                "name": "total-risk-score",
+                "readOnly": true
+              },
+              "requests": [],
+              "stayed": true
+            },
+            "click": {
+              "requests": [],
+              "stayed": true,
+              "clickHitButton": true
+            }
+          },
+          "layers": {
+            "guardAlone": {
+              "focused": true,
+              "requests": [],
+              "stayed": true
+            },
+            "methodAlone": {
+              "focused": true,
+              "requests": [],
+              "stayed": true
+            },
+            "secondFieldAlone": {
+              "alone": {
+                "focused": true,
+                "requests": [],
+                "stayed": true
+              },
+              "controlWithoutIt": {
+                "focused": true,
+                "requests": [
+                  "POST /yorkeyeassociates/myopia-management-quiz-results/"
+                ],
+                "stayed": false
+              }
+            }
+          },
+          "control": {
+            "enter": [
+              "POST /yorkeyeassociates/myopia-management-quiz-results/"
+            ],
+            "enterOn": {
+              "type": "number",
+              "name": "total-risk-score",
+              "readOnly": true
+            },
+            "enterFocused": true,
+            "click": [
+              "POST /yorkeyeassociates/myopia-management-quiz-results/"
+            ],
+            "clickHitButton": true
+          }
+        }
+      ]
+    },
+    "generatedMedia": {
+      "stills": [
+        {
+          "id": "contact-case",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "contact-dish",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "dry-beads",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "dry-dropper",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "dry-water",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "exam-lenses",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "frames-case",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "frames-light",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "infant",
+          "provider": "higgsfield",
+          "model": "xai/grok-imagine-image-2.0"
+        },
+        {
+          "id": "kids-frames",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "lens-blanks",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "lens-caustic",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "lens-tints",
+          "provider": "higgsfield",
+          "model": "xai/grok-imagine-image-2.0"
+        },
+        {
+          "id": "lid-care",
+          "provider": "higgsfield",
+          "model": "xai/grok-imagine-image-2.0"
+        },
+        {
+          "id": "light-warm",
+          "provider": "higgsfield",
+          "model": "xai/grok-imagine-image-2.0"
+        },
+        {
+          "id": "low-vision",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "news",
+          "provider": "higgsfield",
+          "model": "xai/grok-imagine-image-2.0"
+        },
+        {
+          "id": "prism",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "reading",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "ripples",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "rose-lens",
+          "provider": "fal",
+          "model": "fal-ai/nano-banana-pro"
+        },
+        {
+          "id": "specialty",
+          "provider": "higgsfield",
+          "model": "xai/grok-imagine-image-2.0"
+        },
+        {
+          "id": "stationery",
+          "provider": "higgsfield",
+          "model": "xai/grok-imagine-image-2.0"
+        },
+        {
+          "id": "sunglasses",
+          "provider": "higgsfield",
+          "model": "xai/grok-imagine-image-2.0"
+        }
+      ],
+      "loops": [
+        {
+          "id": "beads",
+          "from": "dry-beads",
+          "provider": "fal",
+          "model": "blackforestlabs/flux-3/first-last-frame-to-video",
+          "mode": "pingpong",
+          "renditions": [
+            "beads-720.mp4",
+            "beads-480.mp4"
+          ]
+        },
+        {
+          "id": "contact",
+          "from": "contact-dish",
+          "provider": "higgsfield",
+          "model": "minimax/hailuo-2.3/standard/image-to-video",
+          "mode": "pingpong",
+          "renditions": [
+            "contact-720.mp4",
+            "contact-480.mp4"
+          ]
+        },
+        {
+          "id": "dry",
+          "from": "dry-water",
+          "provider": "higgsfield",
+          "model": "kling-video/v2.5-turbo/pro/image-to-video",
+          "mode": "pingpong",
+          "renditions": [
+            "dry-720.mp4",
+            "dry-480.mp4"
+          ]
+        },
+        {
+          "id": "frames",
+          "from": "frames-light",
+          "provider": "fal",
+          "model": "blackforestlabs/flux-3/first-last-frame-to-video",
+          "mode": "pingpong",
+          "renditions": [
+            "frames-720.mp4",
+            "frames-480.mp4"
+          ]
+        },
+        {
+          "id": "lens",
+          "from": "lens-caustic",
+          "provider": "higgsfield",
+          "model": "kling-video/v2.5-turbo/pro/image-to-video",
+          "mode": "pingpong",
+          "renditions": [
+            "lens-720.mp4",
+            "lens-480.mp4"
+          ]
+        }
+      ],
+      "placements": 74,
+      "pagesShowingGenerated": 68,
+      "note": "AI-generated decorative imagery; not photographs of the practice, its people or its premises"
+    },
+    "thirdPartyFrames": {
+      "inMarkup": {
+        "www.youtube-nocookie.com": [
+          "/eyeglasses/neurolens/"
+        ],
+        "maps.google.com": [
+          "/hours-location/",
+          "/location/york-eye-associates-pc/"
+        ]
+      },
+      "measuredHosts": {
+        "www.youtube-nocookie.com": {
+          "requests": 17,
+          "methods": {
+            "GET": 15,
+            "POST": 2
+          },
+          "pages": [
+            "eyeglasses/neurolens/"
+          ]
+        },
+        "fonts.gstatic.com": {
+          "requests": 12,
+          "methods": {
+            "GET": 12
+          },
+          "pages": [
+            "eyeglasses/neurolens/",
+            "hours-location/",
+            "location/york-eye-associates-pc/"
+          ]
+        },
+        "www.google.com": {
+          "requests": 64,
+          "methods": {
+            "GET": 64
+          },
+          "pages": [
+            "eyeglasses/neurolens/",
+            "hours-location/",
+            "location/york-eye-associates-pc/"
+          ]
+        },
+        "i.ytimg.com": {
+          "requests": 2,
+          "methods": {
+            "GET": 2
+          },
+          "pages": [
+            "eyeglasses/neurolens/"
+          ]
+        },
+        "www.gstatic.com": {
+          "requests": 1,
+          "methods": {
+            "GET": 1
+          },
+          "pages": [
+            "eyeglasses/neurolens/"
+          ]
+        },
+        "yt3.ggpht.com": {
+          "requests": 2,
+          "methods": {
+            "GET": 2
+          },
+          "pages": [
+            "eyeglasses/neurolens/"
+          ]
+        },
+        "jnn-pa.googleapis.com": {
+          "requests": 3,
+          "methods": {
+            "POST": 2,
+            "OPTIONS": 1
+          },
+          "pages": [
+            "eyeglasses/neurolens/"
+          ]
+        },
+        "maps.google.com": {
+          "requests": 4,
+          "methods": {
+            "GET": 4
+          },
+          "pages": [
+            "hours-location/",
+            "location/york-eye-associates-pc/"
+          ]
+        },
+        "maps.gstatic.com": {
+          "requests": 8,
+          "methods": {
+            "GET": 8
+          },
+          "pages": [
+            "hours-location/",
+            "location/york-eye-associates-pc/"
+          ]
+        },
+        "maps.googleapis.com": {
+          "requests": 77,
+          "methods": {
+            "GET": 58,
+            "POST": 16,
+            "OPTIONS": 3
+          },
+          "pages": [
+            "hours-location/",
+            "location/york-eye-associates-pc/"
+          ]
+        },
+        "fonts.googleapis.com": {
+          "requests": 8,
+          "methods": {
+            "GET": 8
+          },
+          "pages": [
+            "hours-location/",
+            "location/york-eye-associates-pc/"
+          ]
+        },
+        "places.googleapis.com": {
+          "requests": 3,
+          "methods": {
+            "POST": 2,
+            "OPTIONS": 1
+          },
+          "pages": [
+            "hours-location/",
+            "location/york-eye-associates-pc/"
+          ]
+        }
+      },
+      "note": "measured by preview-verify.mjs with every child target auto-attached; request counts are over the measured page loads"
+    }
+  }
+}

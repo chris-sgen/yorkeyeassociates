@@ -1,0 +1,142 @@
+/* tokens.css — "Large Print": the York Eye Associates design system.
+   The measured tokens of the live site (sr-tokens) are kept in audit/source-design/source-tokens.css;
+   the values below start from them. Where a value comes from is noted beside it:
+     · measured  — read from the live site's computed styles (audit/design-baseline.json)
+     · sampled   — taken from one of the practice's own photographs
+     · designed  — chosen for this system
+   Change a value HERE, never at a call site. docs/BRAND-SYSTEM.md explains the system. */
+:root {
+  /* ---- colour: primitives ------------------------------------------------------------------ */
+  --ink: #1b1a21;              /* designed: the black of the wall-sign wordmark, lifted toward the live text hue */
+  --charcoal: #464451;         /* measured: the live site's text colour */
+  --slate: #3f4a66;            /* measured: the live top bar, buttons and footer */
+  --periwinkle: #9dafdb;       /* measured: the live section bands */
+  --periwinkle-wash: #e2e7f3;  /* designed: periwinkle at about a quarter over white */
+  --white: #ffffff;            /* measured: the live page ground */
+  --stone: #edeceb;            /* measured: the live inner-page ground */
+  --stone-shade: #afa193;      /* sampled: the white stacked-stone wall behind the sign, in shadow */
+  --steel: #527c94;            /* sampled: the steel-blue iris of the eye on the wall sign */
+  --star: #ffd700;             /* measured: the live review stars */
+  --alert: #a1241b;            /* designed: the building's brick, darkened until it passes on white */
+
+  /* ---- colour: roles (components use these, never the primitives) ---------------------------- */
+  --c-ground: var(--white);          /* the page */
+  --c-band: var(--stone);            /* alternate band, top bar, footer */
+  --c-field: var(--periwinkle);      /* full-bleed colour field: the nameplate, doctors, booking band */
+  --c-wash: var(--periwinkle-wash);  /* hovered row, checklist block, notices */
+  --c-text: var(--ink);
+  --c-text-2: var(--charcoal);       /* secondary text: dates, crumbs, help. Never on a field */
+  --c-on-field: var(--ink);          /* the only text colour allowed on a field */
+  --c-link: var(--slate);
+  --c-rule: var(--ink);              /* structural rules: 2px opens, 1px divides; also every state cue */
+  --c-hair: var(--stone-shade);      /* hairlines that carry no information */
+  --c-marker: var(--periwinkle);     /* the highlighter: link hover, today's row, tabs */
+  --c-line: var(--steel);            /* The Line and line icons */
+  --c-btn: var(--ink);
+  --c-btn-text: var(--white);
+  --c-btn-hover: var(--slate);
+  --c-input: var(--white);
+  --c-chip: var(--white);            /* the ground a logo or diagram is set on */
+  --c-mat: var(--white);             /* the mat round a generated plate */
+  --c-focus: var(--ink);
+  --c-halo: var(--star);
+  --c-star: var(--star);
+  --c-error: var(--alert);
+
+  /* ---- type ---------------------------------------------------------------------------------- */
+  --font-display: "Overpass", "Overpass Fallback", Arial, "Helvetica Neue", sans-serif;
+  --font-text: "Inclusive Sans", "Inclusive Fallback", Verdana, Arial, sans-serif;
+  /* The ladder is an acuity chart's: each step is x 1.2589 (ten to the power 0.1, the ratio between two
+     lines of a logMAR chart). Phone sizes first; the two wider ladders are set below. Nothing is under 1rem. */
+  --fs-small: 1rem;        /* 16 */
+  --fs-body: 1.125rem;     /* 18 */
+  --fs-lead: 1.25rem;      /* 20 */
+  --fs-h4: 1.25rem;        /* 20 */
+  --fs-h3: 1.4375rem;      /* 23 */
+  --fs-h2p: 1.75rem;       /* 28: a heading inside running text */
+  --fs-h2: 2rem;           /* 32: a section heading */
+  --fs-h1: 2.5rem;         /* 40 */
+  --fs-h1-long: 2.125rem;  /* 34: a title longer than 44 characters */
+  --fs-hero: 2.8125rem;    /* 45 */
+  --fs-hero-2: 1.75rem;    /* 28 */
+  --fs-numeral: 2.5rem;    /* the phone number in the booking band */
+  --lh-body: 1.6;
+  --lh-lead: 1.5;
+  --measure: 41rem;        /* about 65 characters of body text at any text size */
+  --w-text: 400;
+  --w-strong: 600;
+  --w-display: 700;
+  --w-display-heavy: 800;
+  --w-display-light: 400;
+  --track-display: -0.015em;
+  --track-display-sm: -0.005em;
+
+  /* ---- space, structure ------------------------------------------------------------------------ */
+  --sp-1: 0.25rem; --sp-2: 0.5rem; --sp-3: 0.75rem; --sp-4: 1rem; --sp-5: 1.5rem; --sp-6: 2rem; --sp-7: 3rem; --sp-8: 4rem; --sp-9: 6rem;
+  --margin: clamp(1.25rem, 4vw, 3.75rem);
+  --container: 82.5rem;
+  --gutter: 1rem;
+  --section: 4rem;         /* a band's top and bottom padding */
+  --rule: 2px;             /* opens a section or a list */
+  --rule-thin: 1px;        /* divides rows and columns */
+  --radius: 2px;           /* buttons, inputs, tabs, chips. Photographs, bands and menus have none */
+  --control: 3.5rem;       /* a button or an input: 56px */
+  --control-sm: 2.75rem;   /* 44px: the smallest target */
+  --mat: 0.625rem;         /* the mat round a generated plate */
+  --line-h: 3rem;          /* the height of The Line */
+  --line-stroke: 17.4;     /* its stroke, in the drawing's own units: 1.5 CSS px at that height */
+  --header-h: 4.25rem;
+
+  /* ---- motion ---------------------------------------------------------------------------------- */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --t-fast: 120ms;
+  --t-med: 180ms;
+  --t-draw: 1500ms;        /* The Line */
+}
+@media (min-width: 48rem) {
+  :root {
+    --fs-body: 1.1875rem;  /* 19 */
+    --fs-lead: 1.5rem;     /* 24 */
+    --fs-h4: 1.5rem;
+    --fs-h3: 1.875rem;     /* 30 */
+    --fs-h2p: 2.125rem;    /* 34 */
+    --fs-h2: 2.375rem;     /* 38 */
+    --fs-h1: 3rem;         /* 48 */
+    --fs-h1-long: 2.625rem;
+    --fs-hero: 3.75rem;    /* 60 */
+    --fs-hero-2: 2.375rem; /* 38 */
+    --fs-numeral: 4.75rem; /* 76 */
+    --gutter: 1.5rem;
+    --section: 5.5rem;
+    --mat: 0.875rem;
+    --line-h: 3.75rem;
+    --line-stroke: 13.9;
+    --header-h: 5rem;
+  }
+}
+@media (min-width: 64rem) {
+  :root {
+    --fs-body: 1.25rem;    /* 20 */
+    --fs-lead: 1.5625rem;  /* 25 */
+    --fs-h4: 1.5625rem;
+    --fs-h3: 2rem;         /* 32 */
+    --fs-h2p: 2.5rem;      /* 40 */
+    --fs-h2: 3.125rem;     /* 50 */
+    --fs-h1: 3.9375rem;    /* 63 */
+    --fs-h1-long: 3.375rem; /* 54 */
+    --fs-hero: 5rem;       /* 80 */
+    --fs-hero-2: 3.125rem; /* 50 */
+    --fs-numeral: 7.875rem; /* 126 */
+    --section: 7rem;
+    --line-h: 4.25rem;
+    --line-stroke: 12.3;
+    --header-h: 5.5rem;
+  }
+}
+
+/* ---- the reader's control: text size (top bar and footer) ---------------------------------------- */
+/* The whole ladder is in rem, so one number scales every size, space and control. */
+html[data-text="1"] { font-size: 112.5%; }
+html[data-text="2"] { font-size: 125%; }
+/* a screen under 360 px cannot hold the two larger steps without scrolling sideways: there they are smaller */
+@media (max-width: 22.4rem) { html[data-text="1"] { font-size: 106.25%; } html[data-text="2"] { font-size: 112.5%; } }
