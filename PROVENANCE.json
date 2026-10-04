@@ -72,7 +72,7 @@
   },
   "verification": {
     "tool": "src/tools/preview-verify.mjs (handoff project)",
-    "servedAs": "local GitHub Pages emulation under /yorkeyeassociates/ (src/tools/preview-serve.mjs)",
+    "servedAs": "https://chris-sgen.github.io/yorkeyeassociates/",
     "verdict": "PASS",
     "pages": 239,
     "hardening": {
@@ -177,7 +177,7 @@
       "outsidePrefix": 0,
       "overflow390": 0,
       "bannerShown": 0,
-      "browserCancelled": 1,
+      "browserCancelled": 0,
       "deep404": [
         {
           "path": "no-such-page/",
@@ -1188,6 +1188,16 @@
             "eyeglasses/neurolens/"
           ]
         },
+        "jnn-pa.googleapis.com": {
+          "requests": 3,
+          "methods": {
+            "POST": 2,
+            "OPTIONS": 1
+          },
+          "pages": [
+            "eyeglasses/neurolens/"
+          ]
+        },
         "www.gstatic.com": {
           "requests": 1,
           "methods": {
@@ -1201,16 +1211,6 @@
           "requests": 2,
           "methods": {
             "GET": 2
-          },
-          "pages": [
-            "eyeglasses/neurolens/"
-          ]
-        },
-        "jnn-pa.googleapis.com": {
-          "requests": 3,
-          "methods": {
-            "POST": 2,
-            "OPTIONS": 1
           },
           "pages": [
             "eyeglasses/neurolens/"
@@ -1237,11 +1237,11 @@
           ]
         },
         "maps.googleapis.com": {
-          "requests": 77,
+          "requests": 73,
           "methods": {
             "GET": 58,
-            "POST": 16,
-            "OPTIONS": 3
+            "OPTIONS": 3,
+            "POST": 12
           },
           "pages": [
             "hours-location/",
