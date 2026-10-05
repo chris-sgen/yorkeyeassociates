@@ -2,7 +2,7 @@
   "what": "Unofficial redesign preview of www.yorkeyeassociates.com. Not operated by, affiliated with or endorsed by York Eye Associates.",
   "preview": "https://chris-sgen.github.io/yorkeyeassociates/",
   "liveSite": "https://www.yorkeyeassociates.com/",
-  "generated": "2026-10-05T16:42:48.634Z",
+  "generated": "2026-10-05T17:12:38.043Z",
   "pages": 239,
   "files": 1800,
   "hardening": {
@@ -540,7 +540,7 @@
     }
   ],
   "verification": {
-    "measured": "on a local server serving the tree under the project path",
+    "measured": "at the public URL",
     "verdict": "PASS",
     "pageLoads": 476,
     "loopsPlayed": 4,

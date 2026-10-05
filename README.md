@@ -42,7 +42,7 @@ a goal.
 
 These figures were measured by the pipeline, not judged by eye, and filled in from the
 measurement files. The first eight rows come from the handoff build's audit. The others were
-re-read from this tree. The browser figures (rendering, video loops, forms) were measured on a local server that serves this tree under `/yorkeyeassociates/` the way GitHub Pages serves a project site; it had not yet been re-measured at the public URL when this file was written. The tree has 239 pages: the 237 rebuilt ones plus `/404.html` and `/search/`, which the build makes itself. Tested in Chrome only.
+re-read from this tree. The browser figures (rendering, video loops, forms) were measured at the public URL (https://chris-sgen.github.io/yorkeyeassociates/). The tree has 239 pages: the 237 rebuilt ones plus `/404.html` and `/search/`, which the build makes itself. Tested in Chrome only.
 
 | Check | Result |
 | --- | --- |
